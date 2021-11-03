@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&family=Roboto&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css"
+
+    <title>Desafio</title>
+</head>
+
+<body>
+
+    <form action="" method="get">
+
+        <div class="total">
+            <h1> Cadastro </h1>
+            <label for="Nome">Nome:</label>
+            <p class="pa1"><input type="text" required></p>
+
+            <label for="Email">Email:</label>
+            <p class="pa1"><input type="email" required></p>
+
+            <label for="idade">Idade:</label>
+            <p class="pa1"><input type="number" required min="12" step="1"></p>
+
+            <label for="Data-nascimento">Data de Nascimento</label>
+            <p class="pa1"><input type="date" required></p>
+
+            <label for="Contas">Onde você possui conta?</label>
+            <p class="pa2" required>
+
+                <input type="checkbox"> Instagram
+                <input type="checkbox">Facebook
+                <input type="checkbox"> Youtube
+
+            <p><label for="Sexo">Sexo:</label> </p>
+            <p class="pa" required>
+                <input type="radio" name="Op" value="op1"> Masculino
+                <input type="radio" name="Op" value="op1"> Feminino
+            </p>
+
+
+            <label for="Olhos">Cor dos olhos</label>
+            <p class="pa1"><input type="color" required></p>
+
+            <label for="Biografia">Biografia:</label>
+            <p class="pa1"> <textarea name="Biografia" id="" cols="30" rows="4" required></textarea></p>
+
+            <label for="Foto">Foto do perfil</label>
+            <p class="pa1"><input type="file" accept="Image" required></p>
+
+            <label for="Telephone">Telefone:</label>
+            <p class="pa1"><input class="cor" type="number" required></p>
+
+            <label for="Facebook">Link do Perfil do Facebook:</label>
+            <p class="pa1"><input type="url" required></p>
+
+            <label for="password">Senha:</label>
+            <p class="pa1"><input type="password" required></p>
+
+            <div class="button"> <button class="efeito1 " type="reset">Limpar</button> </div>
+            <div class="button"> <button class="efeito2 " type="submit">Enviar</button></div>
+
+    </form>
+    </div>
+
+</body>
+
+
+</html>
